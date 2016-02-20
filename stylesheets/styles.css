@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Noto Sans';
-  font-weight: 1200;
+  font-weight: 400;
   font-style: normal;
   src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot');
   src: url('../fonts/Noto-Sans-regular/Noto-Sans-regular.eot?#iefix') format('embedded-opentype'),
@@ -14,7 +14,7 @@
 
 @font-face {
   font-family: 'Noto Sans';
-  font-weight: 1500;
+  font-weight: 700;
   font-style: normal;
   src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot');
   src: url('../fonts/Noto-Sans-700/Noto-Sans-700.eot?#iefix') format('embedded-opentype'),
@@ -28,7 +28,7 @@
 
 @font-face {
   font-family: 'Noto Sans';
-  font-weight: 1200;
+  font-weight: 400;
   font-style: italic;
   src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot');
   src: url('../fonts/Noto-Sans-italic/Noto-Sans-italic.eot?#iefix') format('embedded-opentype'),
@@ -42,7 +42,7 @@
 
 @font-face {
   font-family: 'Noto Sans';
-  font-weight: 1500;
+  font-weight: 700;
   font-style: italic;
   src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot');
   src: url('../fonts/Noto-Sans-700italic/Noto-Sans-700italic.eot?#iefix') format('embedded-opentype'),
@@ -59,7 +59,7 @@ body {
   padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
-  font-weight:1200;
+  font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -146,7 +146,7 @@ th, td {
 
 dt {
   color:#444;
-  font-weight:1500;
+  font-weight:700;
 }
 
 th {
@@ -209,7 +209,7 @@ header ul a:active {
 
 strong {
   color:#222;
-  font-weight:1500;
+  font-weight:700;
 }
 
 header ul li + li + li {
