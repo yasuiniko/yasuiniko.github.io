@@ -40,6 +40,10 @@ blockquote:before {
   line-height: 0.1em;
   margin-right: 0.25em;
   vertical-align: -0.4em;
+  content:"";
+}
+blockquote:after {
+content:"";
 }
 blockquote p {
   display: inline;
