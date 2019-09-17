@@ -25,6 +25,27 @@
 - Media Queries
 */
 
+
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "";
+}
+blockquote:before {
+  color: #ccc;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+
 .iframe-container {
 position: relative;
 padding-bottom: 56.25%;
@@ -49,6 +70,23 @@ height: 100%;
   padding: 4rem 0;
   margin-bottom: 0;}
 
+.docs-example .row,
+.docs-example.row,
+.docs-example form {
+  margin-bottom: 0; }
+.docs-example h1,
+.docs-example h2,
+.docs-example h3,
+.docs-example h4,
+.docs-example h5,
+.docs-example h6 {
+  margin-bottom: 1rem; }
+
+.docs-header {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  letter-spacing: .2rem;
+  font-weight: 600; }
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
